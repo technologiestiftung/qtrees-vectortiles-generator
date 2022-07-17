@@ -1,4 +1,4 @@
-FROM golang:1.18.3-bullseye
+FROM golang:1.18.4-bullseye
 
 
 ARG TIPPICANOE_TAG=1.36.0
