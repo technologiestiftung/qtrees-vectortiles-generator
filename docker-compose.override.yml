@@ -35,7 +35,7 @@ services:
       - ./_data/tilesets:/tilesets
       - ./_data/temp:/temp
   pgadmin:
-    image: dpage/pgadmin4:6.10
+    image: dpage/pgadmin4:6.11
     environment:
       PGADMIN_DEFAULT_EMAIL: dev@citylab-berlin.org
       PGADMIN_DEFAULT_PASSWORD: 123456
